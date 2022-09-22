@@ -1,0 +1,121 @@
+/* Colors and fonts */
+
+body {
+	background: #F2F5F9;
+	color: rgb(51, 51, 51);
+	font-family: 'Playfair Display', serif;
+	font-size: 17px;
+	font-weight: 400
+}
+
+h2, h3 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500
+}
+
+h1 {
+	font-family: 'Roboto', sans-serif;
+	color: #003A70;
+	font-size: 32px;
+	font-weight: 900
+}
+
+h2 {
+	color: #003A70;
+	font-size: 24px;
+}
+
+a {
+	font-family: 'Secular One', sans-serif;
+	text-decoration: blink;
+	color: darkblue;
+}
+
+
+/* Custome Design */
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+@media (max-width: 760px) {
+	.container {
+		width: 500px;
+	}
+}
+
+@media	(max-width: 600px) {
+	.container {
+		width: 400px;
+	}
+}
+
+.card-white {
+	background-color: whitesmoke;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.08);
+	border-radius: 20px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.img-circle {
+	border-radius: 50%;
+	width: 110px;
+	height: 110px;
+}
+
+.btn-blue {
+	background-color: #0371AE;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 20px;
+	border: black;
+}
+
+.btn-blue:hover {
+	box-shadow: 0 10px 30px rgba(0,0,0,.5);
+	font-weight: bolder;
+	color: rgba(190, 190, 190, 1.0);
+}
+
+.space-txtphoto {
+	padding-bottom: 20px;
+}
+
+.list-horizontal {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-horizontal li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-horizontal i {
+	font-size: 50px;
+}
+
+/*.list-horizontal i:hover {
+	color: rgba(190, 190, 190, 1.0);
+} */
+
+#logo-fb {
+	color: #3B5793;
+}
+
+#logo-twitter {
+	color: #0A9BFB;
+}
+
+#logo-insta {
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  -webkit-background-clip: text;
+          background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+
